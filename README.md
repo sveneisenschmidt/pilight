@@ -1,4 +1,4 @@
-pilight-send
+pilight
 ============
 
-Library to call Pilight (pilight-send) from php
+Library to call Pilight (currently pilight-send) from php
