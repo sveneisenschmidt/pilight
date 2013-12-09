@@ -1,0 +1,27 @@
+{
+    "name": "se/pilight",
+    "type": "library",
+    "description": "Library to call Pilight (currently pilight-send) from php.",
+    "keywords": ["pilight", "gpio", "wiringPi", "wiredPi"],
+    "homepage": "https://github.com/sveneisenschmidt/pilight",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Eisenschmidt",
+            "email": "sven.eisenschmidt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/process": "~2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SE\\Component\\Pilight\\Tests": "tests/",
+            "SE\\Component\\Pilight": "src/"
+        }
+    }
+}
