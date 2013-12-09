@@ -11,7 +11,6 @@ $device = new Pilight\Device($protocoll = 'elro', array(
 
 $device->on();
 
-
 $sender->send($device);
 
 ```
