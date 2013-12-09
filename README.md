@@ -57,7 +57,7 @@ $device = new Pilight\Device($protocol, $arguments);
 $device->setArguments($arguments);
 
 // turn it on
-$device->addArgument('f');
+$device->addArgument('t');
 
 // send it!
 $sender->send($device);
