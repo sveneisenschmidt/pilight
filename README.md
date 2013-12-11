@@ -3,7 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/se/pilight/v/stable.png)](https://packagist.org/packages/se/pilight)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/4c0f1ec0-4bb0-4d3c-a2e1-2302ef1754af/mini.png)](https://insight.sensiolabs.com/projects/4c0f1ec0-4bb0-4d3c-a2e1-2302ef1754af)
 
-Library to call Pilight (currently pilight-send) from php.
+Library to call [pilight](http://www.pilight.org/) (currently via pilight-send) from php.
 
 #### Dev branch is master branch.
 
@@ -71,7 +71,7 @@ $sender->setSudo(true);
 $sender->send($device);
 ```
 
-You can add the *pilight-send* executable to your sudoers configuration to make it callable via sudo without the need to enter a password. In case your *pilight-send* needs to be called via sudo you can get some unexpected output during runtime.
+You can add the *pilight-send* executable to your sudoers configuration to make it callable via sudo without the need to enter a password. ThisIn case your *pilight-send* needs to be called via sudo you can get some unexpected output during runtime.
 
 ```bash
 $ sudo nano /etc/sudoers.d/pilight
