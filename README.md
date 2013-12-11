@@ -71,7 +71,7 @@ $sender->setSudo(true);
 $sender->send($device);
 ```
 
-You can add the *pilight-send* executable to your sudoers configuration to make it callable via sudo without the need to enter a password. ThisIn case your *pilight-send* needs to be called via sudo you can get some unexpected output during runtime.
+You can add the *pilight-send* executable to your sudoers configuration to make it callable via sudo without the need to enter a password. This is in case your *pilight-send* needs to be called via sudo rights you can get some unexpected output during runtime if setting it not.
 
 ```bash
 $ sudo nano /etc/sudoers.d/pilight
